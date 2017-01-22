@@ -199,7 +199,44 @@ section >h2{
 
 
 /*style do sekcji portfolio koniec*/
-
+#kontakt{
+   background-color: #213b50; 
+    color: white;
+    height: 250px;
+}
+   
 #kontakt h2{
     text-align: left;
+}
+adress{
+    width:50%;
+    margin:0;
+    float: left;
+}
+footer{
+    background-color: midnightblue;
+    height: auto;
+    text-align: left;
+   padding-left:  50px;
+    color: white;
+    
+}
+input, textarea{
+    background-color: lightblue;
+    text-align: right;
+    float: right;
+    padding-right: 25px;
+    width: 200px;
+    padding-top: 10px;
+    color: white;
+    border: none;
+}
+#send{
+    background-color: lawngreen;
+    text-align: right;
+    float: right;
+    padding-right: 25px;
+    width: auto;
+    padding-top: 10px;
+    color: white;
 }
