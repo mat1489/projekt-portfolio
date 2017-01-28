@@ -1,0 +1,87 @@
+@media all and (max-width:1200px){
+    
+
+     #portfolio .portfolio-item {
+        width: 50%;
+    }
+    #portfolio .portfolio-item:nth-child(3){
+        width: 100%;
+    }
+    
+    
+}
+@media all and (max-width:768px){
+    
+/* responsive menu styles -start */
+    .col-1-2{
+        width: 100%;
+    }
+    #menu .toggle{
+        display:block;
+        color:#1ac056;
+        text-align: right;
+        padding: 10px 20px;
+        font-size: 1.4em;
+        text-transform: uppercase;
+    }
+    
+    #menu ul{
+        display: none;
+    }
+    
+    #menu #drop:checked +ul{
+        display: block;
+    }
+    
+    #menu .menu-item{
+        display: block;
+        text-align: right;
+    }
+    
+    #about figure, #about div{
+        width: 100%;
+    }
+    
+    
+    
+    
+    /*sekcja portfolio*/
+   
+    #portfolio .portfolio-item {
+        width: 100%;
+    }
+    /*sekcja kontakt*/
+    #contact div,#contact h2{
+        width: 100%;
+        text-align: center;
+    } 
+
+    #contact .social-icons{
+        margin: 50px auto;
+    }
+}
+@media all and (max-width:680px){
+    
+    #main-header > #header-content >h1{
+        font-size: 3em;
+    }
+    
+    #main-header > #header-content >h2{
+        font-size: 1.5em;
+    }
+    
+    
+    
+    
+}
+@media all and (max-width:480px){
+    section{
+        padding: 15px 30px;
+    }
+
+     #main-header > #header-content >h2{
+        font-size: 1.2em;
+    } 
+    
+    
+}

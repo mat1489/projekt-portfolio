@@ -34,6 +34,10 @@ span{
 #menu{
      background-color: white;
 }
+
+#menu #drop, #menu .toggle{
+   display: none; 
+}
 /*style do menu koniec*/
 
 /*style do nagłówka początek*/
@@ -43,7 +47,7 @@ span{
     background-size: cover;
     height: 90vh;
     position: relative;
-    
+    width: 100%;
 
 }
 
@@ -199,10 +203,13 @@ section >h2{
 
 
 /*style do sekcji portfolio koniec*/
+
+/* style do sekcja konntakt poczatek*/
+/*
 #kontakt{
    background-color: #213b50; 
     color: white;
-    height: 250px;
+    height: 300px;
 }
    
 #kontakt h2{
@@ -213,30 +220,144 @@ adress{
     margin:0;
     float: left;
 }
-footer{
-    background-color: midnightblue;
-    height: auto;
-    text-align: left;
-   padding-left:  50px;
-    color: white;
+#podkreslony{
+    text-decoration: underline;
+}
+#ikony{
+    margin-top: 30px;
+}
+#ikony i{
+    width: 25px;
+    margin-right: 20px;
+    color: #213b50;
+    background-color: white;
+   
+}
+
     
 }
-input, textarea{
-    background-color: lightblue;
-    text-align: right;
+#form{
+    width: 400px;
     float: right;
-    padding-right: 25px;
-    width: 200px;
-    padding-top: 10px;
-    color: white;
-    border: none;
+    padding-top: 50px;
 }
-#send{
-    background-color: lawngreen;
-    text-align: right;
+input[type="text"],input[type="email"], textarea{
+    width: 400px;
+    padding-top: 10px;
+    line-height: 25px;
+    background-color: #2b4a64;
+    border: 0;
+    margin: 5px 0;
+   
+}
+
+input[type="submit"]{
+    text-align: center;
     float: right;
-    padding-right: 25px;
-    width: auto;
-    padding-top: 10px;
+    background-color: chartreuse;
+    border: 0;
+    width: 75px;
+    height: 35px;
     color: white;
+    text-transform: uppercase;
+    font-size: 12px;
 }
+textarea{
+    height: 50px;
+}
+*/
+/* style do sekcja kontakt koniec*/
+
+
+
+/*wersja od Łukasza*/
+#contact{
+background-color:#213b50;
+color: white;
+overflow: hidden;
+
+
+}
+
+#contact h2 {
+text-align:left;
+}
+
+#contact address{
+font-style: normal;
+margin: 50px 0;
+
+}
+
+#contact address a {
+color:#1ac056;
+text-decoration:none;
+}
+
+#contact address a:hover{
+text-decoration:underline;
+}
+
+#contact .social-icons{
+
+}
+
+#contact .social-icons a {
+display:inline-block;
+height:50px;
+width:50px;
+border: 1px white solid;
+color: white;
+line-height: 50px;
+text-align: center;
+font-size: 12px;
+margin-right: 15px;
+}
+
+#contact .social-icons a:hover{
+color:#213b50;
+background-color:#fff;
+}
+
+#contact form input,#contact form textarea {
+width: 100%;
+background-color:#2b4a64;
+border:#2b4a64;
+padding: 15px;
+margin-bottom: 10px;
+color:#fff;
+}
+
+#contact form input:focus,#contact form textarea:focus {
+
+background-color:#4a6a86;
+
+}
+#contact form input[type="submit"]{
+background-color:#1ac056;
+border#1ac056 1px solid;
+color:#fff;
+text-transform: uppercase;
+width:auto;
+float: right;
+}
+
+#contact form input[type="submit"]:hover{
+background-color:#fff;
+color:#1ac056;
+cursor:pointer;
+
+}
+
+/*wersja od Łukasza koniec*/
+
+footer{
+    background-color: #142634;
+    color: white;
+    padding: 5px 60px;
+}
+
+footer p {
+    margin:0;
+}
+ 

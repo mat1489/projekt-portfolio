@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>projekt portfolio</title>
+    
+    <!--    google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    
+    <!--    font awesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <!--    main styles-->
 	<link rel="stylesheet" href="css/style.css">
-	   <link rel="stylesheet" href="css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	
+    <!--	responsive styles   -->
+    <link rel="stylesheet" href="css/responsive.css">
+	
 	
 
 </head>
@@ -13,11 +23,14 @@
     <div id="kontener">
         <!--   menu początek-->
         <nav id="menu">
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop">
+        
             <ul>
-                <li><a href="#omnie">O mnie</a></li>
-                <li><a href="#umiejetnosci">Umiejętności</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
+                <li class="menu-item"><a href="#omnie">O mnie</a></li>
+                <li class="menu-item"><a href="#umiejetnosci">Umiejętności</a></li>
+                <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu-item"><a href="#kontakt">Kontakt</a></li>
             </ul>
         </nav>
         <!--menu koniec-->
@@ -47,61 +60,72 @@
         </section>
         <!--sekcja koniec about-->
         
-        <section id="skills">
-           <h2>Moje <span>umiejętności</span></h2>
-            <p id="tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, obcaecati autem iusto enim velit eaque provident sequi ullam ipsam saepe, dolores ab alias aspernatur suscipit praesentium numquam esse quam totam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, obcaecati autem iusto enim velit eaque provident sequi ullam ipsam saepe, dolores ab alias aspernatur suscipit praesentium numquam esse quam totam!</p>
-            
-            <div id="skills-icons">
-                <figure>
-                <img src="icons/html5.png" alt="">
-                <figcaption>HTML5</figcaption>
-                </figure>
-                
-                <figure>
-                <img src="icons/css3.png" alt="">
-                <figcaption>CSS3</figcaption>
-                </figure>
-                
-                <figure>
-                <img src="icons/js.png" alt="">
-                <figcaption>Javascript</figcaption>
-                </figure>
-                
-                <figure>
-                <img src="icons/jquery.png" alt="">
-                <figcaption>jQuery</figcaption>
-                </figure>
-            </div>
-           
-                
-        </section>
+        -
         
         <section id="portfolio">
-             <h2>Moje <span>portfolio</span></h2>
+            <h2>Moje <span>portfolio</span></h2>
             <div id="portfolio-items">
-              <div class="portfolio-item" id="portfolio-item-1">
-                  <div class="portfolio-item-mask">
-                      <div class="portfolio-item-content">
-                          <div class="portfolio-item-content-inner">
-                          <h3>Lorem ipsum</h3>
-                          <p style="color:white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi minus nostrum consequuntur, eveniet sint consectetur, similique impedit ex ipsum quis saepe doloremque molestiae. Hic rerum eaque quis similique, odio deleniti!</p>
-                          <h4>Wykorzystane technologie:</h4>
-                          <p>HTML5, CSS3, Javascript</p>
-                          <a href="https://www.google.pl"><i class="fa fa-link fa-1x fa-invert" aria-hidden="true"></i> </a>
-                          
-                      </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="portfolio-item" id="portfolio-item-2">
-                  <div class="portfolio-item-mask"></div>
-              </div>
-              <div class="portfolio-item" id="portfolio-item-3">
-                  <div class="portfolio-item-mask"></div>
-              </div>
+                <div class="portfolio-item" id="portfolio-item-1">
+                        <div class="portfolio-item-mask">
+                            <div class="portfolio-item-content">
+                                <div class="portfolio-item-content-inner">
+                                    <h3>Lorem ipsum</h3>
+                                    <p style="color:white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi minus nostrum consequuntur, eveniet sint consectetur, similique impedit ex ipsum quis saepe doloremque molestiae. Hic rerum eaque quis similique, odio deleniti!</p>
+                                    <h4>Wykorzystane technologie:</h4>
+                                    <p>HTML5, CSS3, Javascript</p>
+                                    <a href="https://www.google.pl"><i class="fa fa-link fa-1x fa-invert" aria-hidden="true"></i> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                </div>
                 
+                    <div class="portfolio-item" id="portfolio-item-2">
+                    <div class="portfolio-item-mask"></div>
+                    </div>
+                    <div class="portfolio-item" id="portfolio-item-3">
+                    <div class="portfolio-item-mask"></div>
+                    </div>
+
             </div>
         </section>
+<!--        wersja od Łukasza-->
+       
+<section id="contact">
+    <div class="col-1-2">
+        <h2>Łukasz<span>Badocha</span></h2>
+        <adress>
+        ul.Mostowa 6/13<br>
+        31-061 Kraków<br> <br>
+        tel:606 745 759<br>
+        email:<a></a>
+        </adress>
+
+        <div class="social-icons">
+            <a><i class="fa x fa-facebook-square fa-2x " aria-hidden="true"></i></a>
+            <a><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+            <a><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            <a><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+<!--    formularz-->
+    <div class="col-1-2">
+        <form action="">
+            <input type="text" placeholder="imie i nazwisko">
+            <input type="email" placeholder="adres email">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Wiadomosc">
+            </textarea>
+            <input type="submit" value="wyślij">
+        </form>
+    </div>
+</section>
+				
+	
+	
+       
+       
+<!--
         <section id="kontakt">
            
            <adress>
@@ -110,15 +134,25 @@
                31-061 Kraków
                <br><br>
                tel:606 74 57 59<br>
-               e-mail:example@example.pl
+               e-mail:<span id="podkreslony">example@example.pl</span>
+               
+               <div id="ikony">
+               <i class="fa fa-facebook" aria-hidden="true"></i>
+               <i class="fa fa-google" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+               
+           </div>
            </adress>
+           
             <div id="form">
                 <input type="text" placeholder="Imie i nazwisko"><br>
                 <input type="email"placeholder="Email"><br>
-                <textarea name="" id="" cols="15" rows="5" placeholder="Treść wiadomości"></textarea><br>
+                <textarea name="" id="" cols="15" rows="5" placeholder="Wiadomość"></textarea><br>
                 <label id="send"><input type="submit" value="Wyślij"></label>
             </div>
         </section>
+-->
         <footer>
             Copyright© Jan Nowak
         </footer>
